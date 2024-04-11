@@ -7,9 +7,7 @@ void solve()
 {
   string a;
   cin>>a;
-  if((int)a[0]>97 && a.size()>1){
-    a[0]=(int)a[0]-32;
-  }
+  a[0]=toupper(a[0]);
   cout<<a;
 
 }
